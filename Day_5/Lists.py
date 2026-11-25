@@ -31,9 +31,6 @@ print(scandic)
 print(es)
 """
 fruits = ['banana', 'orange', 'mango', 'lemon']
+all_fruits = fruits[0:4]
 
-
-
-
-
-
+print(all_fruits)
