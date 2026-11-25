@@ -1,5 +1,4 @@
 #Day 5 of 30 days of coding
-"""
 lst = list()
 print(len(lst))
 
@@ -77,7 +76,7 @@ list2 = ['item3', 'item4', 'item5']
 list1.extend(list2)
 
 print(list1)
-"""
+
 friuts6 = ['banana', 'orange', 'mango', 'lemon']
 print(friuts6.index('banana'))
 friuts6.reverse()
