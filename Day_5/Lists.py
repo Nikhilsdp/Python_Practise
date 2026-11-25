@@ -34,3 +34,11 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 all_fruits = fruits[0:4]
 
 print(all_fruits)
+print(fruits[1:])
+print(fruits[::-1])
+print(fruits[::2])
+
+fruits[0] = "cherry"
+print(fruits)
+
+
