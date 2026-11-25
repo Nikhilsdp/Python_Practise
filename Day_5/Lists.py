@@ -62,11 +62,34 @@ print(fruits4)
 del fruits3
 fruits5 = ['banana', 'orange', 'mango', 'lemon']
 fruits5.clear()
-print(fruits5)
-"""
+
 fs = ['banana', 'orange', 'mango', 'lemon']
 fscpy = fs.copy()
 print(fscpy)
+positive_numbers = [1, 2, 3, 4, 5]
+zero = [0]
+negative_numbers = [-5,-4,-3,-2,-1]
+ints = negative_numbers + zero + positive_numbers
+print(ints)
+
+list1 = ['item1', 'item2']
+list2 = ['item3', 'item4', 'item5']
+list1.extend(list2)
+
+print(list1)
+"""
+friuts6 = ['banana', 'orange', 'mango', 'lemon']
+print(friuts6.index('banana'))
+friuts6.reverse()
+print(friuts6)
+
+friuts6.sort(reverse=True)
+print(friuts6)
+
+fruits7 = ['banana', 'orange', 'mango', 'lemon']
+print(sorted(fruits7))
+
+
 
 
 
