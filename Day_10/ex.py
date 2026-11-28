@@ -49,7 +49,7 @@ for i in range(101):
         
     else:
         total_odd += i
-print(f"The sum of all evens is:{total_even}\nAnd the sum of all odds is{total_odd}
+print(f"The sum of all evens is:{total_even}\nAnd the sum of all odds is{total_odd}")
 
 
 
